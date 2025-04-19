@@ -28,3 +28,6 @@ print("All Done!")
 #super user
 #u: admin
 #p: admin123
+
+
+#http://localhost:56020/?code=f3ec6d2489d826cf84f9&state=4b16a7e9f9bb42b4890e9830e4837a4b

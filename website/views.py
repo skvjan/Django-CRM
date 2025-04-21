@@ -92,13 +92,3 @@ def update_record(request, pk):
     else:
         messages.success(request, "You Must Be Logged In To View That...")
         return redirect('home')
-
-    #     if request.method == 'POST':
-    #         if form.is_valid():
-    #             add_record = form.save()
-    #             messages.success(request, 'Record Added...')
-    #             return redirect('home')
-    #     return render(request, 'add_record.html', {'form': form})
-    # else:
-    #     messages.success(request, "You Must Be Logged In To View That...")
-    #     return redirect('home')
